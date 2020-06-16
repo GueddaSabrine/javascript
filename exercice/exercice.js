@@ -32,11 +32,15 @@ console.log(`c = ${c}`)
 
 //*********************
 
+/*2.1*/
 let a, b;
 prompt(
     message "entre deux nombre");
 if (a > 0 ET b > 0) {
     alert("produit positif")
-} if (a < 0 ET b < 0){
+} else (a < 0 ET b < 0){
     alert("produit negatif")
 }
+
+
+//*******************
