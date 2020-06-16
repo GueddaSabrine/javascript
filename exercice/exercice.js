@@ -14,7 +14,29 @@ console.log(`a = ${a}`);
 console.log(`b = ${b}`)
  */
 
-let a, b;
+let a;
 a = prompt(message "entrez un nombre");
-console.log(`a = ${b}`)
-b = a * a;
+console.log(`a = ${a}`)
+a = a * a;
+console.log('a = ${a}')
+
+//*********************
+
+let a, b;
+a = prompt(message "nombre");
+b = prompt(message "nombre");
+
+c = (a + b)/2
+
+console.log(`c = ${c}`)
+
+//*********************
+
+let a, b;
+prompt(
+    message "entre deux nombre");
+if (a > 0 ET b > 0) {
+    alert("produit positif")
+} if (a < 0 ET b < 0){
+    alert("produit negatif")
+}
