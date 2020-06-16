@@ -150,5 +150,10 @@ console.log(4 == 4);
 console.log(4 == '4');
 console.log(4 === '4');
 console.log(4 === 4);
-Fin du chapitre
+console.log(4 != 4);
+console.log(4 != '4');
+console.log(4 !== 4);
+console.log(4 !== '4');
+
+//Fin du chapitre
 
