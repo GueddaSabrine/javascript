@@ -133,8 +133,8 @@ console.log(Math.ceil(x:2.9));
 */
 
 //Générateur de Nompbre aléatoire
-let aleatoire = Math, random() * 101;
-console.log(`aleatoire = ${Math.floor(aleatoire)}`);
+// let aleatoire = Math, random() * 101;
+// console.log(`aleatoire = ${Math.floor(aleatoire)}`);
 
 //console.log(`aleatoire = ${aleatoire}`);
 //***************************************
