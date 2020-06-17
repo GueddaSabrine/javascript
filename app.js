@@ -1,2 +1,4 @@
-require('./exercice/exercice');
+//require('./exercice/exercice');
+
+require(`./05-tableaux/maintab`);
 
