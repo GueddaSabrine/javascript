@@ -6,7 +6,7 @@
 // personne.sexe = 'M';
 
 //prefer la notation JSON
-// let personne = { prenom:`Toulepi`, age: 23, sexe: `M`}
+// let personne = { prenom:`Joachim`, age: 23, sexe: `M`}
 //
 // console.log(personne);
 // console.log(personne.age);
