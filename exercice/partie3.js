@@ -41,10 +41,10 @@
 // Supprimer toutes les occurrences d'une lettre dans une chaîne de caractères
 
 //(exemple1)
-const maChaine = `Lorem ipsum dolor sit amet consectetur adipiscing.`;
-console.log(maChaine.replace('ipsum','consectetur' ));
-maChaine.replace('','');
-console.log(maChaine);
+// const maChaine = `Lorem ipsum dolor sit amet consectetur adipiscing.`;
+// console.log(maChaine.replace('ipsum','consectetur' ));
+// maChaine.replace('','');
+// console.log(maChaine);
 
 //(exemple2)
 // const maChaine = `Lorem ipsum dolor sit amet consectetur adipiscing.`;
@@ -57,19 +57,45 @@ console.log(maChaine);
 // ( si non, afficher "absent")
 
 // const maChaine = `Lorem ipsum dolor sit amet consectetur adipiscing.`;
-// const searchTerm = 'u';
+// const searchTerm = 'e';
 // const indexOfFirst = maChaine.indexOf(searchTerm);
 // console.log(`The index of the first "${searchTerm}" from the beginning is ${indexOfFirst}`);
-//
-// else = "absent"
+
+
+// var indices = [];
+// var tableau = ['a', 'b', 'a', 'c', 'a', 'd'];
+// var élément = 'a';
+// var idx = tableau.indexOf(élément);
+// while (idx != -1) {
+//     indices.push(idx);
+//     idx = tableau.indexOf(élément, idx + 1);
+// }
+// console.log(indices);
 
 
 
 // 7.
 // Compter le nombre d'occurrence de chaque lettre dans une chaine
+// (https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/indexOf)
+// const str = "Chaîne reset de test reverse";
+// let count = 0;
+// let pos = str.indexOf("r");
+//
+// while ( pos != -1 ) {
+//     count++;
+//     pos = str.indexOf( "r",pos + 1 );
+// }
+// console.log(count);
+
 // 8.
 // Remplacer les double espace (ou dans une chaîne de caractères par un
 // espace
+
+
+
+
+
+
 // 9.
 // Découper une chaîne de caractères en mots avec l'espace comme séparateur
 // et les compter
