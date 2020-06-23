@@ -6,4 +6,5 @@
 //require('./exercice/part2');
 // require('./08-complement/notion-de-class');
 // require('./08-complement/complement-de-fonction');
-require('./exercice/partie3')
+//require('./exercice/partie3');
+require('./exercice/partie4');
