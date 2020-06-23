@@ -12,27 +12,36 @@ console.log(premierH1.textContent);
 // *****************************
 
 // premierH1.textContent = "Titre modifié par JavaScript";
-// premierH1.innerText = "Titre modifié par JavaScript";
-premierH1.innerHTML = " <div style='color: red'> Titre modifié par JavaScript";
+premierH1.innerText = "Titre modifié par JavaScript";
+// premierH1.innerHTML = " <div style='color: red'> Titre modifié par JavaScript";
 document.querySelector('a').textContent="wikipedia.org";  //recupere l'element et le change
-document.querySelector('#titreHeader').textContent="wikipedia.org"; //(pour le id par un # pour une classe par un .point )
+// document.querySelectorAll('#titreHeader')[2].textContent="wikipedia.org"; //(pour le id par un # pour une classe par un .point )
 
 // Modifier le contenu HTML du tag h1
 // **********************************
 
-//TODO
+
 
 // Exercices
 // *********
 
-//TODO
+// let liens = document.querySelectorAll('a');
+// console.log(liens);
+let liens = document.querySelectorAll('a');
+console.log(liens[6].textContent);
+liens[6].textContent = "Lien 4";
+liens[7].textContent = "Lien 5";
+liens[8].textContent = "Lien 6";
+
 
 // Modifier l'attribut d'un element
 // ********************************
 
-//TODO
+document.querySelector('a').href="http://wikipedia.org";
+document.querySelector('.container').className="container-fluid";
 
 // Modifier le style d'un element
 // ******************************
 
-//TODO
+document.querySelector('#titreHeader').style.color = "Purple";
+document.querySelector('#titreHeader').style.fontSize = "5rem" ;
