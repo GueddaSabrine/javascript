@@ -35,6 +35,8 @@ console.log(food1)
 // Afficher la présence d'une lettre dans une chaîne (si oui, en afficher le nombre
 // ( si non, afficher "absent")
 
+function 
+
 // const maChaine = `Lorem ipsum dolor sit amet consectetur adipiscing.`;
 // const searchTerm = 'e';
 // const indexOfFirst = maChaine.indexOf(searchTerm);
