@@ -1,6 +1,17 @@
 // 1. Ecrire la fonction isMultiple, qui prend deux entiers n et m et
 // retourne vrai si et seulementsi n est un multipledem.
-
+function ismultiple() {
+    let n=Number(prompt("n="));
+    let m=Number(prompt("m="));
+    if ((n % m)==0){
+        alert(`${n}`+`est un multiple de `+` ${m}`);
+    }
+    else {
+        alert(`${n}`+`n'est pas un multiple de `+` ${m}`);
+    }
+    return n%m;
+}
+ismultiple();
 
 
 // 2. Ecrire la fonction isEven, qui prend un entier i et retourne vrai si et

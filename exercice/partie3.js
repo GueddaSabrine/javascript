@@ -26,8 +26,8 @@ console.log(chang.replace('e','t' ));
 // 5.
 // Supprimer toutes les occurrences d'une lettre dans une chaîne de caractères
 
-food = 'Pizza', 'Frite', 'ketchup', 'Hamburger';
-food1 = food.split('e').join('');
+food = `J'aime la pizza`;
+food1 = food.split('a').join('');
 console.log(food1);
 
 
@@ -35,22 +35,13 @@ console.log(food1);
 // Afficher la présence d'une lettre dans une chaîne (si oui, en afficher le nombre
 // ( si non, afficher "absent")
 
-// const maChaine = `Lorem ipsum dolor sit amet consectetur adipiscing.`;
-// const searchTerm = 'e';
-// const indexOfFirst = maChaine.indexOf(searchTerm);
-// console.log(`The index of the first "${searchTerm}" from the beginning is ${indexOfFirst}`);
-
-
-// var indices = [];
-// var tableau = ['a', 'b', 'a', 'c', 'a', 'd'];
-// var élément = 'a';
-// var idx = tableau.indexOf(élément);
-// while (idx != -1) {
-//     indices.push(idx);
-//     idx = tableau.indexOf(élément, idx + 1);
-// }
-// console.log(indices);
-
+let animaux = `J'ai un chat persan`;
+let arr = [];
+let chr = "n";
+for(let item of animaux){
+    if(item === chr)arr.push(item);
+}
+console.log("nbr de", chr, "=", arr.length)
 
 
 // 7.

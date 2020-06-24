@@ -10,4 +10,4 @@
 //require('./exercice/partie4');
 //require('./10-les-objets-du-BOM/04-naviguer-dans-le-DOM/main');
 //require('./10-les-objets-du-BOM/06-time-out-interval/main')
-require('./travail-dirige/Initial/resources/js/app')
+//require('./travail-dirige/Initial/resources/js/app')
