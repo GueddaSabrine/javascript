@@ -28,7 +28,7 @@ console.log(chang.replace('e','t' ));
 
 food = 'Pizza', 'Frite', 'ketchup', 'Hamburger';
 food1 = food.split('e').join('');
-console.log(food1)
+console.log(food1);
 
 
 // 6.
