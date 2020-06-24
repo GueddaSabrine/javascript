@@ -19,34 +19,13 @@
 // seulement si i est un nombre pair. « Notre méthode ne peut pas utiliser
 // la multiplication,le module,ou la division comme operateur en son sein»
 
+
 // function pair(chiffre){
 //     chiffre=Number(prompt("n="));
 //     chiffre=parseInt(chiffre);
 //     return ((chiffre & 1)=='0')?true:false;
 // }
 // alert(pair());
-
-// const isEven = x => {
-//     if (x % 2 === 0) {
-//         return true;
-//     }
-//     return false;
-// }
-// isEven(12);
-
-// function isEven(){
-//     var nbr;
-//     nbr = Number(document.getElementById("myInput").value);
-//     if(nbr % 2 == 0)
-//     {
-//         alert("Nombre pair");
-//     }
-//     else
-//     {
-//         alert("Nombre impair");
-//     }
-// }
-
 
 
 // 3. Un nombre est n premier s'il a seulement deux diviseurs :
