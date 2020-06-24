@@ -8,6 +8,8 @@
 // require('./08-complement/complement-de-fonction');
 //require('./exercice/partie3');
 //require('./exercice/partie4');
+require('./exercice/partie5');
+
 //require('./10-les-objets-du-BOM/04-naviguer-dans-le-DOM/main');
 //require('./10-les-objets-du-BOM/06-time-out-interval/main')
 //require('./travail-dirige/Initial/resources/js/app')

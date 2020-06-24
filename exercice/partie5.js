@@ -1,22 +1,51 @@
 // 1. Ecrire la fonction isMultiple, qui prend deux entiers n et m et
 // retourne vrai si et seulementsi n est un multipledem.
-function ismultiple() {
-    let n=Number(prompt("n="));
-    let m=Number(prompt("m="));
-    if ((n % m)==0){
-        alert(`${n}`+`est un multiple de `+` ${m}`);
-    }
-    else {
-        alert(`${n}`+`n'est pas un multiple de `+` ${m}`);
-    }
-    return n%m;
-}
-ismultiple();
+//*******************************************************
+// function isMultiple() {
+//     let n = Number(prompt("n="));
+//     let m = Number(prompt("m="));
+//     if ((n % m)==0){
+//         alert(`${n} est un multiple de ${m}`);
+//     }
+//     else {
+//         alert(`${n} n'est pas un multiple de ${m}`);
+//     }
+//     return n%m;
+// }
+// isMultiple();
 
-
+//***********************************************
 // 2. Ecrire la fonction isEven, qui prend un entier i et retourne vrai si et
 // seulement si i est un nombre pair. « Notre méthode ne peut pas utiliser
 // la multiplication,le module,ou la division comme operateur en son sein»
+
+// function pair(chiffre){
+//     chiffre=Number(prompt("n="));
+//     chiffre=parseInt(chiffre);
+//     return ((chiffre & 1)=='0')?true:false;
+// }
+// alert(pair());
+
+// const isEven = x => {
+//     if (x % 2 === 0) {
+//         return true;
+//     }
+//     return false;
+// }
+// isEven(12);
+
+// function isEven(){
+//     var nbr;
+//     nbr = Number(document.getElementById("myInput").value);
+//     if(nbr % 2 == 0)
+//     {
+//         alert("Nombre pair");
+//     }
+//     else
+//     {
+//         alert("Nombre impair");
+//     }
+// }
 
 
 
@@ -33,3 +62,6 @@ ismultiple();
 
 // 5. Ecrire une méthode qui compte le nombre de voyelles
 // dans une chaîne de caractèresdonnée
+
+
+
