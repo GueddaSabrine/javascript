@@ -1,12 +1,31 @@
 // 1. Ecrire la fonction isMultiple, qui prend deux entiers n et m et
 // retourne vrai si et seulementsi n est un multipledem.
+//*******************************************************
+// function isMultiple() {
+//     let n = Number(prompt("n="));
+//     let m = Number(prompt("m="));
+//     if ((n % m)==0){
+//         alert(`${n} est un multiple de ${m}`);
+//     }
+//     else {
+//         alert(`${n} n'est pas un multiple de ${m}`);
+//     }
+//     return n%m;
+// }
+// isMultiple();
 
-
-
+//***********************************************
 // 2. Ecrire la fonction isEven, qui prend un entier i et retourne vrai si et
 // seulement si i est un nombre pair. « Notre méthode ne peut pas utiliser
 // la multiplication,le module,ou la division comme operateur en son sein»
 
+
+// function pair(chiffre){
+//     chiffre=Number(prompt("n="));
+//     chiffre=parseInt(chiffre);
+//     return ((chiffre & 1)=='0')?true:false;
+// }
+// alert(pair());
 
 
 // 3. Un nombre est n premier s'il a seulement deux diviseurs :
@@ -22,3 +41,6 @@
 
 // 5. Ecrire une méthode qui compte le nombre de voyelles
 // dans une chaîne de caractèresdonnée
+
+
+
