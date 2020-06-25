@@ -13,7 +13,7 @@ console.log(rev);
 // 3.
 // Remplacer tous les caractères d'une chaîne par une *
 let voyage = `jadore le code`;
-let nvx = voyage.replace('jadore le code','*');
+let nvx = voyage.replace(/[jadore le code]/gi,"*");
 console.log(nvx);
 
 // 4.

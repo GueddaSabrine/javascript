@@ -42,25 +42,15 @@
 // 5. Ecrire une méthode qui compte le nombre de voyelles
 // dans une chaîne de caractèresdonnée
 
-// let vowelCount = function(str){
-//     let count = 0;
-//     for(var i = 0; i < str.length; i++){
-//         if(str[i] == 'a' || str[i] == 'i' || str[i] == 'o' ||str[i] == 'e' ||str[i] == 'u'){
-//             count+=1;
-//         }
-//         console.log(count);
-//         return count;
-//     }
-// }
-// vowelCount('sabrine')
 
-const str = "J'allume mon ordinateur chaque matin.";
-let count = 0;
-let pos = str.indexOf("a"),str.indexOf("o");
-
-while ( pos != -1 ) {
-    count++;
-    pos = str.indexOf( "r",pos + 1 );
+var vowelCount = function(str){
+    var count = 0;
+    for(var i = 0; i < str.length; i++){
+        if(str[i].toLowerCase() == 'a' || str[i].toLowerCase() == 'i' || str[i].toLowerCase() == 'o' ||str[i].toLowerCase() == 'e' ||str[i].toLowerCase() == 'u'){
+            count+=1;
+        }
+    }
+    return count;
 }
-console.log(count);
+vowelCount('jouer')
 
