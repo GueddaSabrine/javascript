@@ -35,7 +35,13 @@ console.log(food1)
 // Afficher la présence d'une lettre dans une chaîne (si oui, en afficher le nombre
 // ( si non, afficher "absent")
 
-function 
+let animaux = `J'ai un chat persan`;
+let arr = [];
+let chr = "n";
+for(let item of animaux){
+    if(item === chr)arr.push(item);
+}
+console.log("nbr de", chr, "=", arr.length)
 
 // const maChaine = `Lorem ipsum dolor sit amet consectetur adipiscing.`;
 // const searchTerm = 'e';
