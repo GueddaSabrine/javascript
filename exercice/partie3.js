@@ -3,6 +3,8 @@
 let tiret = "_";
 console.log(`tiret: ${tiret.repeat(50)}`);
 
+////////////////////////////////////////////////////////////////////////////////
+
 // 2.
 //Inverser une chaîne de caractères (sans supprimer l'originale)
 let maChaine = 'Lorem ipsum dolor sit amet consectetur adipiscing.' ;
@@ -10,11 +12,15 @@ let rev = maChaine.split('').reverse().join('');
 console.log(maChaine);
 console.log(rev);
 
+/////////////////////////////////////////////////////////////////////////////////////
+
 // 3.
 // Remplacer tous les caractères d'une chaîne par une *
 let voyage = `jadore le code`;
 let nvx = voyage.replace(/[jadore le code]/gi,"*");
 console.log(nvx);
+
+//////////////////////////////////////////////////////////////////////////////////////////
 
 // 4.
 // Remplacer toutes les occurrences d'une lettre par une autre dans une chaîne
@@ -23,12 +29,16 @@ console.log(nvx);
 const chang = `vive le codage`;
 console.log(chang.replace('e','t' ));
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+
 // 5.
 // Supprimer toutes les occurrences d'une lettre dans une chaîne de caractères
 
-food = 'Pizza', 'Frite', 'ketchup', 'Hamburger';
-food1 = food.split('e').join('');
-console.log(food1)
+food = `J'aime la pizza`;
+food1 = food.split('a').join('');
+console.log(food1);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // 6.
@@ -61,6 +71,8 @@ console.log("nbr de", chr, "=", arr.length)
 
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // 7.
 // Compter le nombre d'occurrence de chaque lettre dans une chaine
 
@@ -74,11 +86,15 @@ while ( pos != -1 ) {
 }
 console.log(count);
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // // 8.
 //Remplacer les double-espace (ou +) dans une chaîne de caractères par un espace
 const greeting = '    Une journée ensoleilée   ';
 console.log(greeting);
 console.log(greeting.trim());
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 9.
 // Découper une chaîne de caractères en mots avec l'espace comme séparateur
@@ -93,4 +109,4 @@ for(var i = 0; i < tab.length; i++){
 console.log(hop.length);
 console.log(tab.length);
 
-////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
